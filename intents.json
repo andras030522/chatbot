@@ -1,0 +1,147 @@
+{"intents": [
+        {"tag": "udvozles",
+         "patterns": [
+            "Üdv",
+            "Hello",
+            "Szia",
+            "Mizu",
+            "Jó napot"
+         ],
+         "responses": [
+            "Hello",
+            "Örvendek",
+            "Örülök, hogy újra látlak",
+            "Szervusz, miben segíthetek?"
+         ],
+         "context": []
+        },
+        {"tag": "elkoszones",
+        "patterns": [
+            "Viszlát",
+            "Viszlát később",
+            "Csáó",
+            "Csá csumi cső",
+            "Örültem a beszélgetésnek"
+        ],
+        "responses": [
+            "Szia, írj ha majd kell segítség",
+            "Legyen szép napod!",
+            "Hali, örülök hogy segíthettem"
+        ],
+        "context": []
+        },
+        {"tag": "koszonet",
+         "patterns": [
+            "Köszi",
+            "Köszönöm",
+            "Nagyszerű",
+            "Ez nagy segítség volt"
+         ],
+         "responses": [
+            "Örülök, hogy segíthettem",
+            "Bármikor",
+            "Örömömre szolgált"
+         ],
+         "context": []
+        },
+        {"tag": "semmivalasz",
+         "patterns": [],
+         "responses": [
+            "Bocsi, de ezt most nem értettem",
+            "Kérlek adj több információt",
+            "Nem értem megfelelően amit mondtál"
+         ],
+         "context": []
+        },
+        {"tag": "opciok",
+         "patterns": [
+            "Hogy tudsz nekem segíteni",
+            "Mit tudsz csinálni",
+            "Hogy lehetsz a segítségemre",
+            "Milyen támogatást nyújtasz"
+         ],
+         "responses": [
+            "Én egy chatbot vagyok, amelyet társalgásra fejlesztettek. Sok mindenre képes vagyok, tudok információt átadni, vagy akár viccet mesélni. Ha valami nem tetszik, vagy esetleg van egy ötleted amit mindenképp megszeretnél osztani, akkor küldj egy emailt a geza.micsevegorobot@gmail.com címre. Köszönöm!"
+         ],
+         "context": []
+        },
+        {"tag": "viccek",
+         "patterns": [
+            "Mondj egy viccet",
+            "Vicc",
+            "Nevettess meg"
+         ],
+         "responses": [
+            "Másik munkát szeretnék, mert itt kiégtem. – mondja a villanykörte.",
+            "Hogy hívják azt a lovat, amelyik hason fekszik? Hasonló",
+            "Rossz az, aki rosszra gondol. Hülye, aki nem.",
+            "Miért kopog a fapapucs? Mert nem éri fel a csengőt",
+            "Milyen fejfedőt viselnek az újszülöttek? Cumi-süveget!",
+            "Mit söpörnek a repülőtéren? Airport.",
+            "Hogy mondod másképpen: teve hátán öreg nő?",
+            "Hogy hívják a sugárfertőzött nyulat? Paksifüles.",
+            "Melyik állatnak a legjobb a kedve? A juhé...",
+            "A bigámia azt jelenti, hogy a kelleténél eggyel több feleséged van. A monogámia ugyanez."
+         ],
+         "context": ["viccek"]
+        },
+        {"tag": "szemelyiseg",
+         "patterns": [
+            "Ki vagy",
+            "Mi vagy"
+         ],
+         "responses": [
+            "Én Géza vagyok, egy MI csevegőrobot"
+         ],
+         "context": []
+        },
+        {"tag": "ido",
+         "patterns": [
+            "Mennyi az idő",
+            "Mi a mai dátum",
+            "Dátum",
+            "Idő",
+            "Nap"
+         ],
+         "responses": [
+            "Dátum és idő"
+         ],
+         "context": []
+        },
+        {"tag": "mizu",
+         "patterns": [
+            "Mizujs",
+            "Geráppá",
+            "Hogy vagy"
+         ],
+         "responses": [
+            "Minden rendben, és te?"
+         ],
+         "context": []
+        },
+        {"tag": "haha",
+         "patterns": [
+            "haha",
+            "hihi",
+            "lol",
+            "ez vicces"
+         ],
+         "responses": [
+            "Örülök, hogy sikerült megnevettetnem téged :)"
+         ],
+         "context": []
+        },
+        {
+        "tag": "programozo",
+        "patterns":[
+                "Ki készített",
+                "Ki programozott"
+        ],
+        "responses":[
+                "Németh András készített el engem."
+        ],
+        "context":[]
+        }
+
+    ]
+}
